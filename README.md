@@ -8,8 +8,11 @@
 - Có Dockerfile cho backend/frontend và chạy được bằng `docker compose`
 
 ## Chạy local (không Docker)
+> Backend code nằm trong thư mục `backend/`.
+
 ### Backend
 ```bash
+cd backend
 npm install
 npm run dev
 ```
